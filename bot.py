@@ -5,7 +5,6 @@ from openai import OpenAI
 from telegram import Update
 from telegram.ext import ApplicationBuilder, MessageHandler, ContextTypes, filters
 
-import os
 
 TELEGRAM_BOT_TOKEN = os.environ["TELEGRAM_BOT_TOKEN"]
 AIPIPE_TOKEN = os.environ["AIPIPE_TOKEN"]
