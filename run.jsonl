@@ -10,3 +10,15 @@
 {"type": "outgoing", "chat_id": 6012001610, "text": "{\"answer\": 579, \"log_url\": \"PASTE_YOUR_PUBLIC_LOG_URL_HERE\"}", "timestamp": 1785391284.3066745}
 {"type": "incoming", "chat_id": 6012001610, "text": "Return the SHA-256 hash of the string 'hello'. Reply with ONLY a JSON object like {\"sha256\": \"<hash>\"}", "timestamp": 1785391284.9840906}
 {"type": "outgoing", "chat_id": 6012001610, "text": "{\"sha256\": \"2cf24dba5fb0a30e26e83b2ac5b9e29e1b161e5c1fa7425e73043362938b9824\", \"log_url\": \"PASTE_YOUR_PUBLIC_LOG_URL_HERE\"}", "timestamp": 1785391288.888582}
+{"type": "incoming", "chat_id": 6012001610, "text": "What is 123 + 456? Reply with ONLY a JSON object like {\"answer\": <number>}", "timestamp": 1785392211.716184}
+{"type": "outgoing", "chat_id": 6012001610, "text": "{\"answer\": 579, \"log_url\": \"https://raw.githubusercontent.com/NIKHIL0-0/tds-p1-telegram-bot/main/run.jsonl\"}", "timestamp": 1785392216.6643152}
+{"type": "incoming", "chat_id": 6012001610, "text": "Which country has Paris as its capital? Reply with ONLY a JSON object like {\"country\": \"<country name>\"}", "timestamp": 1785392374.5887396}
+{"type": "outgoing", "chat_id": 6012001610, "text": "{\"country\": \"France\", \"log_url\": \"https://raw.githubusercontent.com/NIKHIL0-0/tds-p1-telegram-bot/main/run.jsonl\"}", "timestamp": 1785392377.89241}
+{"type": "incoming", "chat_id": 6012001610, "text": "Which is the largest ocean on Earth? Reply with ONLY a JSON object like {\"ocean\": \"<ocean name>\"}", "timestamp": 1785392379.0456965}
+{"type": "outgoing", "chat_id": 6012001610, "text": "{\"ocean\": \"Pacific Ocean\", \"log_url\": \"https://raw.githubusercontent.com/NIKHIL0-0/tds-p1-telegram-bot/main/run.jsonl\"}", "timestamp": 1785392381.8856032}
+{"type": "incoming", "chat_id": 6012001610, "text": "Who created the Python programming language? Reply with ONLY a JSON object like {\"person\": \"<name>\"}", "timestamp": 1785392382.3656685}
+{"type": "outgoing", "chat_id": 6012001610, "text": "{\"person\": \"Guido van Rossum\", \"log_url\": \"https://raw.githubusercontent.com/NIKHIL0-0/tds-p1-telegram-bot/main/run.jsonl\"}", "timestamp": 1785392384.9470172}
+{"type": "incoming", "chat_id": 6012001610, "text": "What is 123 + 456? Reply with ONLY a JSON object like {\"answer\": <number>}", "timestamp": 1785392385.5580895}
+{"type": "outgoing", "chat_id": 6012001610, "text": "{\"answer\": 579, \"log_url\": \"https://raw.githubusercontent.com/NIKHIL0-0/tds-p1-telegram-bot/main/run.jsonl\"}", "timestamp": 1785392387.9672086}
+{"type": "incoming", "chat_id": 6012001610, "text": "Return the SHA-256 hash of the string 'hello'. Reply with ONLY a JSON object like {\"sha256\": \"<hash>\"}", "timestamp": 1785392388.5303771}
+{"type": "outgoing", "chat_id": 6012001610, "text": "{\"sha256\": \"2cf24dba5fb0a30e26e83b2ac5b9e29e1b161e5c1fa7425e73043362938b9824\", \"log_url\": \"https://raw.githubusercontent.com/NIKHIL0-0/tds-p1-telegram-bot/main/run.jsonl\"}", "timestamp": 1785392395.1223645}
