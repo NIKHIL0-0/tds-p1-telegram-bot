@@ -1,0 +1,12 @@
+{"type": "incoming", "chat_id": 6012001610, "text": "What is 15% of 200? Reply with ONLY this JSON: {\"answer\": , \"log_url\": \"...\"}", "timestamp": 1785389935.2480083}
+{"type": "outgoing", "chat_id": 6012001610, "text": "{\"answer\": 30, \"log_url\": \"PASTE_YOUR_PUBLIC_LOG_URL_HERE\"}", "timestamp": 1785389940.107911}
+{"type": "incoming", "chat_id": 6012001610, "text": "Which country has Paris as its capital? Reply with ONLY a JSON object like {\"country\": \"<country name>\"}", "timestamp": 1785391272.3822625}
+{"type": "outgoing", "chat_id": 6012001610, "text": "{\"country\": \"France\", \"log_url\": \"PASTE_YOUR_PUBLIC_LOG_URL_HERE\"}", "timestamp": 1785391274.71321}
+{"type": "incoming", "chat_id": 6012001610, "text": "Which is the largest ocean on Earth? Reply with ONLY a JSON object like {\"ocean\": \"<ocean name>\"}", "timestamp": 1785391275.5793912}
+{"type": "outgoing", "chat_id": 6012001610, "text": "{\"ocean\": \"Pacific Ocean\", \"log_url\": \"PASTE_YOUR_PUBLIC_LOG_URL_HERE\"}", "timestamp": 1785391278.0306146}
+{"type": "incoming", "chat_id": 6012001610, "text": "Who created the Python programming language? Reply with ONLY a JSON object like {\"person\": \"<name>\"}", "timestamp": 1785391278.6724656}
+{"type": "outgoing", "chat_id": 6012001610, "text": "{\"person\": \"Guido van Rossum\", \"log_url\": \"PASTE_YOUR_PUBLIC_LOG_URL_HERE\"}", "timestamp": 1785391281.2870493}
+{"type": "incoming", "chat_id": 6012001610, "text": "What is 123 + 456? Reply with ONLY a JSON object like {\"answer\": <number>}", "timestamp": 1785391281.7758}
+{"type": "outgoing", "chat_id": 6012001610, "text": "{\"answer\": 579, \"log_url\": \"PASTE_YOUR_PUBLIC_LOG_URL_HERE\"}", "timestamp": 1785391284.3066745}
+{"type": "incoming", "chat_id": 6012001610, "text": "Return the SHA-256 hash of the string 'hello'. Reply with ONLY a JSON object like {\"sha256\": \"<hash>\"}", "timestamp": 1785391284.9840906}
+{"type": "outgoing", "chat_id": 6012001610, "text": "{\"sha256\": \"2cf24dba5fb0a30e26e83b2ac5b9e29e1b161e5c1fa7425e73043362938b9824\", \"log_url\": \"PASTE_YOUR_PUBLIC_LOG_URL_HERE\"}", "timestamp": 1785391288.888582}
