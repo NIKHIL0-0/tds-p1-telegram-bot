@@ -5,14 +5,13 @@ from openai import OpenAI
 from telegram import Update
 from telegram.ext import ApplicationBuilder, MessageHandler, ContextTypes, filters
 
-# --- fill these in with your own values ---
-TELEGRAM_BOT_TOKEN = "8936031375:AAH7pD46-yYfFkHfVsvtdtv8zf29_teWcjo"
-AIPIPE_TOKEN = "eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6IjIzZjMwMDE2MTdAZHMuc3R1ZHkuaWl0bS5hYy5pbiIsImlhdCI6MTc4NTM4OTA1MCwiaXNzIjoiaHR0cHM6Ly9haXBpcGUub3JnIiwiYXVkIjoiYWlwaXBlLWFwaSIsImV4cCI6MTc4NTk5Mzg1MH0.8BmuWPJyPePNgDO4FwyCaq-mEKKJUJY8xJ3eY15TXpA"
-<<<<<<< HEAD
-LOG_URL = "https://raw.githubusercontent.com/NIKHIL0-0/tds-p1-telegram-bot/main/run.jsonl"  # see Step 5 — where run.jsonl will be hosted
-=======
-LOG_URL = "https://raw.githubusercontent.com/NIKHIL0-0/tds-p1-telegram-bot/main/run.jsonl" # see Step 5 — where run.jsonl will be hosted
->>>>>>> e5f364a (Update bot and log URL)
+import os
+
+TELEGRAM_BOT_TOKEN = os.environ["TELEGRAM_BOT_TOKEN"]
+AIPIPE_TOKEN = os.environ["AIPIPE_TOKEN"]
+
+LOG_URL = "https://raw.githubusercontent.com/NIKHIL0-0/tds-p1-telegram-bot/main/run.jsonl"
+
 # --------------------------------python-----------
 
 client = OpenAI(base_url="https://aipipe.org/openai/v1", api_key=AIPIPE_TOKEN)
